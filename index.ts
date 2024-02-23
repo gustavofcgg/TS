@@ -56,4 +56,6 @@ listarPessoas.push(outraPessoa);
 console.log(listarPessoas);
 
 
-console.log()
+listarPessoas.forEach(pessoa => {
+    console.log(pessoa.nome)
+})
